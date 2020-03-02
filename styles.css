@@ -1,0 +1,14 @@
+/*top nav bar*/
+body, html{
+  height:60%;
+}
+
+.nav{
+  margin: 0 !important;
+  align-items:center;
+}
+
+h1{
+  text-align: center;
+  padding-top:20%;
+}
