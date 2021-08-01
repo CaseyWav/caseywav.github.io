@@ -2,7 +2,9 @@ const mainMenu = document.querySelector('.mainMenu');
 const menuClose = document.querySelector('.menuClose');
 const menuOpen = document.querySelector('.menuOpen');
 
-
+window.onload = function(){
+  loadTopNav()
+}
 
 
 menuOpen.addEventListener('click',show);
@@ -14,4 +16,8 @@ function show(){
 }
 function close(){
     mainMenu.style.top = '-100%';
+}
+
+function loadTopNav(){
+
 }
