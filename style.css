@@ -6,88 +6,57 @@
 }
 body  {
     font-family: 'Arial' , sans-serif;
-    background: #111111;
-}
-.topNav {
-    background: #1f1f1f;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 2px 4px 2px 2px rgba(0,0,0,0.2);
-}
-.topNav .mainMenu {
-    display: flex;
-    list-style: none;
-}
-.topNav .mainMenu li a {
-    display: inline-block;
-    padding: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #EEEEEE;
-    font-size: 1.5rem;
-    text-align: center;
+    background: #E3E3E3;
 }
 
-
-.topNav li a:hover{
-    background: #A1A1A1;
-    color:#0E0E0E;
-}
-
-
-.topNav .menuOpen {
-    font-size: 2rem;
-    margin: 20px;
-    display: none;
-    cursor: pointer;
-}
-.topNav .mainMenu .menuClose , .icons i {
-    font-size: 30px;
-    display: none;
-    cursor: pointer;
-}
 
 .fa-github:hover {color: rgb(255, 123, 0);}
 .fa-linkedin:hover {color: rgb(88,128,198)}
 
-.topNav .logo {
-    margin: 6px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-
-.parallax{
-  width:100%;
-  background-image: url("homePageImage2_blurred.png");
-  height:25rem;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 h2{
   color: white;
   font-size: 3rem;
-  font-family:Arial;
+  font-family:lato;
 }
 h4{
   color: #E7E7E7;
   font-size: 2rem;
-  font-family:Arial;
+  font-family:lato;
 }
 
 p{
   color: #E7E7E7;
   font-size: 1.5rem;
+  font-family:lato;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  align-content:center;
+  margin-top:2rem;
+  margin-left:20%;
+  margin-right:20%;
+  gap:1.5rem;
+}
+.flex-box-item{
+  flex:25%;
+  padding:15px;
+  /*box-shadow:1px 1px 2px 2px rgb(27 27 27 / 73%);*/
+  border-radius:5px;
+  background:#F3F3F3;
+}
+.flex-box-header{
+  color:#636363;
+  font-size:1.5rem;
   font-family:Arial;
 }
 
+
 .td-card{
   width:30%;
-  background-color:#202020;
+  background-color:#EEEEEE;
   box-shadow:1px 1px 2px 2px rgb(80 80 80 / 73%);
   border-radius:30px;
   vertical-align:top;
@@ -104,10 +73,10 @@ p{
 }
 
 .card-header{
-  font-size:1.75rem;
-  color:white;
+  font-size:1.5rem;
+  color:#454545;
   text-align:center;
-  font-family:Arial;
+  font-family:lato;
 }
 
 .desktop-home{
@@ -131,49 +100,44 @@ height:100%;
   font-size:24px;
 }
 
+@media(min-width:901px && max-width:975px){
+  .flex-box {
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    margin-left:20%;
+    margin-right:20%;
+    gap:1.5rem;
+  }
+  .flex-box-item{
+    flex:25%;
+    border:1px solid black;
+    padding:15px;
+    box-shadow:1px 1px 1px 1px rgb(80 80 80 / 73%);
+    border-radius:50px;
+  }
+}
 
 @media(max-width: 900px){
-  .topNav .mainMenu {
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 10;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: #000;
-        transition: top 1s ease;
-        display: none;
-    }
-    .topNav .mainMenu .menuClose {
-        display: block;
-        position: absolute;
-        top: 0px;
-        right: 0px;
 
-    }
-    .topNav .menuOpen {
-        display: block;
-    }
-    .topNav .mainMenu li a:hover {
-        background: none;
-        color: rgb(128, 128, 128);
-        font-size: 1.6rem;
-    }
-    .icons i {
-        display: inline-block;
-        padding: 12px;
-    }
+  .flex-box {
+    flex-direction: column;
+  }
+  .flex-box-item{
+    flex:10%;
+    border:1px solid black;
+    padding:15px;
+    box-shadow:1px 1px 1px 1px rgb(80 80 80 / 73%);
+    border-radius:50px;
+  }
 
-    .mobile-home{
-      width:100%;
-    }
+  .mobile-home{
+    width:100%;
+  }
 
-    .mobile-td{
-      width:100%;
-    }
+  .mobile-td{
+    width:100%;
+  }
 }
 .mainFooter {
   position: fixed;
