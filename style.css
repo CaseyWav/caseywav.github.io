@@ -31,6 +31,12 @@ p{
   font-family:lato;
 }
 
+.list-text{
+  color: #1a1a1a;
+  font-size:1rem;
+  font-family:lato;
+}
+
 .flex-box {
   display: flex;
   flex-direction: row;
@@ -40,6 +46,7 @@ p{
   margin-right:20%;
   gap:1.5rem;
 }
+
 .flex-box-item{
   flex:25%;
   padding:15px;
@@ -47,10 +54,32 @@ p{
   border-radius:5px;
   background:#F3F3F3;
 }
+
+.flex-box-item:hover{
+  background-color: #1776D5;
+  color:#e1e1e1;
+}
+.flex-box-item:hover ul.flex-box-list {
+  color:#e1e1e1;
+}
+.flex-box-item:hover .card-header {
+  color:#e1e1e1;
+}
+
 .flex-box-header{
   color:#636363;
   font-size:1.5rem;
   font-family:Arial;
+}
+
+ul.flex-box-list{
+  list-style:none;
+  color: #1a1a1a;
+  font-size:1.5rem;
+  font-family:lato;
+}
+ul.flex-box-list li{
+  padding-bottom:5px;
 }
 
 
@@ -73,7 +102,7 @@ p{
 }
 
 .card-header{
-  font-size:1.5rem;
+  font-size:1.75rem;
   color:#454545;
   text-align:center;
   font-family:lato;
