@@ -57,7 +57,7 @@
       justify-content: right;
     }
     .mainMenu{
-      padding-top:35%;
+      padding-top:30%;
       padding-bottom:50%;
 
 
@@ -88,6 +88,7 @@
     .topNav .menuOpen {
         display: block;
         font-size:3.25rem;
+        align-content: end;
     }
     .topNav .mainMenu li{
         margin:4px;
