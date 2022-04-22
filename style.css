@@ -148,9 +148,23 @@ height:100%;
 }
 
 @media(max-width: 900px){
+  h2{
+    font-size:1.5rem;
+    padding-right:.5rem;
+    text-align: right;
+  }
+  h4{
+    font-size:1.25rem;
+  }
+  p{
+    font-size:1.2rem;
+  }
+
 
   .flex-box {
     flex-direction: column;
+    margin-left:15%;
+    margin-right:15%;
   }
   .flex-box-item{
     flex:10%;
@@ -158,6 +172,10 @@ height:100%;
     padding:15px;
     box-shadow:1px 1px 1px 1px rgb(80 80 80 / 73%);
     border-radius:50px;
+    font-size:1rem;
+  }
+  ul.flex-box-list li{
+    font-size:1.2rem;
   }
 
   .mobile-home{
