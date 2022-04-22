@@ -73,7 +73,6 @@
         left: 0;
         z-index: 10;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         background: #0a0a0a;
         transition: top 1s ease;
