@@ -54,7 +54,7 @@
       /*background: #1f1f1f;*/
       color: #fff;
       display: flex;
-      justify-content: right;
+      justify-content: flex-end;
     }
     .mainMenu{
       padding-top:30%;
