@@ -9,6 +9,10 @@
     background-size: cover;
   }
 
+  .parallax-text-container{
+    
+  }
+
 }
 
 @media(max-width:900px){
