@@ -10,7 +10,13 @@
   }
 
   .parallax-text-container{
-    
+    width:100%;
+    padding-left:60%;
+    padding-right:20%;
+  }
+
+  .parallax-break{
+    display:none;
   }
 
 }
@@ -24,5 +30,46 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .parallax-text-container{
+    padding-left:50%;
+    padding-right:50%;
+    padding-top:10%;
+    position: relative;
+  }
+
+  .h1-parallax{
+    font-size:2rem;
+    text-align: center;
+    font-family:lato;
+    color:white;
+    white-space:nowrap;
+    padding-left: 25%;
+    padding-right: 30%;
+    padding-top:20%;
+    width:100%;
+  }
+  .h2-parallax{
+    font-size:1.15rem;
+    text-align: center;
+    font-family:lato;
+    color: #E7E7E7;
+    white-space: nowrap;
+    padding-left: 30%;
+    padding-right: 30%;
+    width:100%;
+  }
+  .h3-parallax{
+    font-size:1rem;
+    text-align:center;
+    font-family:lato;
+    color: #E7E7E7;
+    white-space: nowrap;
+    padding-left: 2%;
+    padding-right: 10%;
+    width:100%;
+  }
+  .parallax-break{
+    display:block;
   }
 }
