@@ -56,14 +56,15 @@ p{
 }
 
 .flex-box-item:hover{
-  background-color: #1776D5;
-  color:#e1e1e1;
+  background-color: #cfcfcf;
+  color:#212121;
+  box-shadow:1px 1px 2px 2px rgb(27 27 27 / 73%);
 }
 .flex-box-item:hover ul.flex-box-list {
-  color:#e1e1e1;
+  color:#212121;
 }
 .flex-box-item:hover .card-header {
-  color:#e1e1e1;
+  color:#212121;
 }
 
 .flex-box-header{
