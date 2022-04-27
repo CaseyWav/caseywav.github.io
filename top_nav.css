@@ -16,7 +16,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: #EEEEEE;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
     font-family:lato;
 }
@@ -30,6 +30,9 @@
     border-radius:40px;
 }
 
+.div-button-active{
+  border-bottom:2px white;
+}
 
 .topNav .menuOpen {
     font-size: 2rem;

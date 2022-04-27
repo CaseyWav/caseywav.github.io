@@ -67,9 +67,9 @@
     white-space:nowrap;
     padding-left: 25%;
     padding-right: 30%;
-    padding-top:7vh;
+    padding-top:8vh;
     width:100%;
-    position:fixed;
+    position:relative;
   }
   .h2-parallax{
     font-size:1.15rem;
@@ -79,9 +79,9 @@
     white-space: nowrap;
     padding-left: 30%;
     padding-right: 30%;
-    padding-top:12.5vh;
+    padding-top:0vh;
     width:100%;
-    position:fixed;
+    position:relative;
   }
   .h3-parallax{
     font-size:1rem;
@@ -91,9 +91,9 @@
     white-space: nowrap;
     padding-left: 2%;
     padding-right: 10%;
-    padding-top:14vh;
+    padding-top:0vh;
     width:100%;
-    position:fixed;
+    position:relative;
   }
   .parallax-break{
     display:block;

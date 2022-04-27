@@ -20,7 +20,7 @@ h2{
   font-family:lato;
 }
 h4{
-  color: #E7E7E7;
+  color: #212121;
   font-size: 2rem;
   font-family:lato;
 }
@@ -41,7 +41,7 @@ p{
   display: flex;
   flex-direction: row;
   align-content:center;
-  margin-top:2rem;
+  margin-top:10vh;
   margin-left:20%;
   margin-right:20%;
   gap:1.5rem;
@@ -81,6 +81,11 @@ ul.flex-box-list{
 }
 ul.flex-box-list li{
   padding-bottom:5px;
+  
+}
+ul.flex-box-list li span{
+  position: relative;
+  left:-10px;
 }
 
 
