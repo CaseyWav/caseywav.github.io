@@ -45,6 +45,7 @@ p{
   margin-left:20%;
   margin-right:20%;
   gap:1.5rem;
+  flex-wrap: wrap; 
 }
 
 .flex-box-item{
@@ -81,7 +82,7 @@ ul.flex-box-list{
 }
 ul.flex-box-list li{
   padding-bottom:5px;
-  
+
 }
 ul.flex-box-list li span{
   position: relative;
