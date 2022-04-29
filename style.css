@@ -7,6 +7,7 @@
 body  {
     font-family: 'Arial' , sans-serif;
     background: #E3E3E3;
+    background-image: url("homePageImage2_blurred.png");
 }
 
 
@@ -56,17 +57,6 @@ p{
   background:#F3F3F3;
 }
 
-.flex-box-item:hover{
-  background-color: #cfcfcf;
-  color:#212121;
-  box-shadow:1px 1px 2px 2px rgb(27 27 27 / 73%);
-}
-.flex-box-item:hover ul.flex-box-list {
-  color:#212121;
-}
-.flex-box-item:hover .card-header {
-  color:#212121;
-}
 
 .flex-box-header{
   color:#636363;
