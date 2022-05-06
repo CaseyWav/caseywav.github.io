@@ -114,9 +114,10 @@
         font-size: 2rem;
         color: #EEEEEE;
     }
-    .icons i {
+    .icons {
         display: inline-block;
         padding: 12px;
+        padding-left:20%;
     }
 
 }
