@@ -134,16 +134,17 @@
     position:relative;
   }
   .h3-parallax{
-    font-size:1rem;
+    font-size:1.15rem;
     text-align:center;
     font-family:lato;
     color: #E7E7E7;
-    white-space: nowrap;
+    white-space: wrap;
     padding-left: 2%;
     padding-right: 10%;
     padding-top:0vh;
     width:100%;
     position:relative;
+    font-weight: bold;
   }
   .parallax-break{
     display:block;
