@@ -169,8 +169,8 @@ height:100%;
 
   .flex-box {
     flex-direction: column;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:0%;
+    margin-right:0%;
   }
   .flex-box-item{
     flex:10%;
@@ -179,6 +179,7 @@ height:100%;
     box-shadow:1px 1px 1px 1px rgb(80 80 80 / 73%);
     border-radius:10px;
     font-size:1.25rem;
+    width:100%;
   }
   ul.flex-box-list li{
     font-size:1.2rem;
