@@ -103,7 +103,7 @@ ul.icons i {
 }
 
 .card-header{
-  font-size:1.75rem;
+  font-size:2.25rem;
   color:#dbdbdb;
   text-align:center;
   font-family:lato;
@@ -162,6 +162,12 @@ height:100%;
   }
   p{
     font-size:1.25rem;
+    text-align:center;
+    font-family:lato;
+  }
+  .card-header{
+    font-size:1.75rem;
+    color:#dbdbdb;
     text-align:center;
     font-family:lato;
   }
