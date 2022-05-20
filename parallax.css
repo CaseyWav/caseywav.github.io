@@ -118,6 +118,17 @@
       background-image: url("homePageImage2_blurred.png");
   }
 
+  .page-title{
+    font-size:9vw;
+    text-align:center;
+    font-family:lato;
+    color:#ebebeb;
+    width:100%;
+    padding-left:25%;
+    padding-right:25%;
+    padding-top:1.5%;
+  }
+
   .h1-parallax{
     font-size:2rem;
     text-align: center;
