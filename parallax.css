@@ -8,7 +8,7 @@
   body  {
       font-family: 'Arial' , sans-serif;
       background: #E3E3E3;
-      background-image: url("homePageImage2_blurred.png");
+      background-image: url("homePageImage3_blurred.png");
   }
 
   .page-title{
@@ -115,8 +115,9 @@
   body  {
       font-family: 'Arial' , sans-serif;
       background: #E3E3E3;
-      background-image: url("homePageImage2_blurred.png");
-      background-repeat: no-repeat;
+      background-image: url("homePageImage3_blurred.png");
+      background-position: center;
+      background-size: cover;
   }
 
   .page-title{
