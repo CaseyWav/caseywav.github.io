@@ -137,7 +137,6 @@
     font-family:lato;
     color:white;
     white-space:nowrap;
-    padding-top:8vh;
     width:100%;
     position:relative;
   }
@@ -147,7 +146,7 @@
     font-family:lato;
     color: #E7E7E7;
     white-space: nowrap;
-    padding-left: 30%;
+    padding-left: 31%;
     padding-right: 30%;
     padding-top:0vh;
     width:100%;

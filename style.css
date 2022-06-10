@@ -9,6 +9,17 @@ body  {
     background: #E3E3E3;
     background-image: url("homePageImage2_blurred.png");
 }
+.front-page-content-mobile{
+  display:none;
+}
+
+.self-photo img{
+  height:35vh;
+  width:18vw;
+  border-radius:50%;
+  border:2px solid grey;
+  z-index:-1;
+}
 
 
 .fa-github:hover {color: rgb(255, 123, 0);}
@@ -150,6 +161,19 @@ height:100%;
 }
 
 @media(max-width: 900px){
+  .front-page-content-desktop{
+    display:none;
+  }
+  .front-page-content-mobile{
+    display:block;
+  }
+  .self-photo img{
+    height:25vh;
+    width:45vw;
+    border-radius:50%;
+    
+    z-index:-1;
+  }
   h2{
     font-size:1.5rem;
     padding-right:.5rem;
