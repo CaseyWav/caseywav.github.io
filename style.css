@@ -168,10 +168,9 @@ height:100%;
     display:block;
   }
   .self-photo img{
-    height:27vh;
+    height:28vh;
     width:45vw;
     border-radius:50%;
-
     z-index:-1;
   }
   h2{
