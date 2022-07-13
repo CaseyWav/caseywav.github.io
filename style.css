@@ -14,8 +14,8 @@ body  {
 }
 
 .self-photo img{
-  height:20vh;
-  width:20vh;
+  height:30vh;
+  width:30vh;
   border-radius:50%;
   border:2px solid grey;
   z-index:-1;
@@ -168,8 +168,8 @@ height:100%;
     display:block;
   }
   .self-photo img{
-    height:28vh;
-    width:45vw;
+    height:20vh;
+    width:20vw;
     border-radius:50%;
     z-index:-1;
   }
