@@ -137,7 +137,7 @@
     font-family:lato;
     color:white;
     white-space:nowrap;
-    width:100%;
+
     position:relative;
   }
   .h2-parallax{
@@ -146,10 +146,8 @@
     font-family:lato;
     color: #E7E7E7;
     white-space: nowrap;
-    padding-left: 31%;
-    padding-right: 30%;
     padding-top:0vh;
-    width:100%;
+
     position:relative;
   }
   .h3-parallax{
@@ -158,10 +156,7 @@
     font-family:lato;
     color: #E7E7E7;
     white-space: wrap;
-    padding-left: 5%;
-    padding-right: 5%;
     padding-top:0vh;
-    width:100%;
     position:relative;
     font-weight: bold;
   }
