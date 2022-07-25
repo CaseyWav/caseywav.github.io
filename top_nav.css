@@ -92,6 +92,7 @@
         display: block;
         font-size:3.25rem;
         align-content: end;
+        margin:8px;
     }
     .topNav .mainMenu li{
         margin:4px;
