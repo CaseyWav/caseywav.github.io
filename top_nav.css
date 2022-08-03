@@ -110,10 +110,16 @@
 
     }
 
+    .topNav li a:hover{
+        background: #1D1737;
+        color: #D3D3D3;
+        border-radius:40px;
+    }
+
     .topNav .mainMenu li a:active {
-        background: #b0b0b0;
+        background:#1D1737;
         font-size: 2rem;
-        color: #EEEEEE;
+        color: #D3D3D3;
     }
     .icons {
         display: inline-block;
