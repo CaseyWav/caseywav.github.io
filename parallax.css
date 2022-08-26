@@ -164,4 +164,9 @@
   .parallax-break{
     display:block;
   }
+  .td-index{
+    border-radius:2px solid white;
+    padding:10px;
+    width:33%;
+  }
 }
