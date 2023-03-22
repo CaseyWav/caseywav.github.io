@@ -14,8 +14,8 @@ body  {
 }
 
 .self-photo img{
-  height:31vh;
-  width:30vh;
+  height:45vh;
+  width:44vh;
   border-radius:50%;
   border:2px solid grey;
   z-index:-1;
