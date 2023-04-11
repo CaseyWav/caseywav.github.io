@@ -149,6 +149,15 @@ height:100%;
     padding-left:16vw;
 }
 
+.footer-icons{
+  text-align: center;
+  margin-top:20vh;
+}
+
+.footer-icons:hover{
+  color:#adadad;
+}
+
 
 .front-page{
   font-size:24px;
