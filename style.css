@@ -19,6 +19,7 @@ body  {
   border-radius:50%;
   border:2px solid grey;
   z-index:-1;
+  background-color: #ededed21;
 }
 
 
@@ -193,6 +194,7 @@ height:100%;
     width:27vh;
     border-radius:50%;
     z-index:-1;
+    background-color: #ededed21;
   }
   h2{
     font-size:1.5rem;
