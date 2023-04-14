@@ -255,6 +255,15 @@ height:100%;
     display:block;
   }
 
+  .footer-icons{
+    text-align: center;
+    margin-top:1vw;
+  }
+
+  .footer-icons:hover{
+    color:#adadad;
+  }
+
 }
 .mainFooter {
   position: fixed;
