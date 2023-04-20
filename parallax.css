@@ -151,7 +151,7 @@
     position:relative;
   }
   .h3-parallax{
-    font-size:1.15rem;
+    font-size:1rem;
     text-align:center;
     font-family:lato;
     color: #E7E7E7;
@@ -159,7 +159,7 @@
     padding-top:1vh;
     position:relative;
     font-weight: bold;
-    padding:10%
+    padding:5%
   }
   .parallax-break{
     display:block;
