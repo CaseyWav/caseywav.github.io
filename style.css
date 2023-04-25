@@ -142,6 +142,9 @@ height:100%;
     padding: 12px;
 
 }
+.fa i:hover{
+  color:blue;
+}
 
 .tdIcons {
     justify-content: space-between;
