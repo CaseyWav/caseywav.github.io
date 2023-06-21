@@ -260,11 +260,9 @@ height:100%;
 
   .footer-icons{
     text-align: center;
-    margin-top:10vw;
     position: fixed;
     bottom: 1%;
-    left:33%;
-    right:33%;
+    background-color: #ededed42;
   }
 
   .footer-icons:hover{
