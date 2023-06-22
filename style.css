@@ -261,8 +261,9 @@ height:100%;
   .footer-icons{
     text-align: center;
     position: fixed;
-    bottom: 1%;
+    bottom: 0;
     background-color: #ededed42;
+    width:100%;
   }
 
   .footer-icons:hover{
