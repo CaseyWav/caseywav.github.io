@@ -15,7 +15,7 @@ function show(){
     mainMenu.style.top = '0';
 }
 function close(){
-    mainMenu.style.top = '-120%';
+    mainMenu.style.top = '-160%';
 }
 
 function loadTopNav(){
