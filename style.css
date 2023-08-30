@@ -156,6 +156,7 @@ height:100%;
 .footer-icons{
   text-align: center;
   margin-top:20vh;
+  padding:10px;
 }
 
 .footer-icons:hover{
@@ -264,6 +265,7 @@ height:100%;
     bottom: 0;
     background-color: #ededed42;
     width:100%;
+    padding:10px;
   }
 
   .footer-icons:hover{
