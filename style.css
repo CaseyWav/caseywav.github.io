@@ -22,6 +22,16 @@ body  {
   background-color: #ededed21;
 }
 
+.hackathon{
+  height:19rem;
+  width:27rem;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  margin-bottom:2rem;
+}
+
 
 .fa-github:hover {color: rgb(255, 123, 0);}
 .i .fa-github{
@@ -200,6 +210,15 @@ height:100%;
     z-index:-1;
     background-color: #ededed21;
   }
+  .hackathon{
+    height:10rem;
+    width:15rem;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    margin-bottom:1rem;
+  }
   h2{
     font-size:1.5rem;
     padding-right:.5rem;
@@ -240,6 +259,7 @@ height:100%;
   }
   ul.flex-box-list li{
     font-size:1.15rem;
+    white-space:normal;
   }
 
   .mobile-home{
