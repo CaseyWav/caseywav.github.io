@@ -68,7 +68,7 @@ p{
   display: flex;
   flex-direction: row;
   align-content:center;
-  margin-top:10vh;
+  margin-top:6vh;
   margin-left:20%;
   margin-right:20%;
   gap:1.5rem;
@@ -94,17 +94,21 @@ p{
 ul.flex-box-list{
   list-style:none;
   color: #dbdbdb;
-  font-size:1.25rem;
+
   font-family:lato;
 }
 ul.flex-box-list li{
   padding-bottom:5px;
-
+  font-size:1.25rem;
+}
+ul.flex-box-list li b{
+  font-size:1.75rem;
 }
 ul.flex-box-list li span{
   position: relative;
   left:-10px;
 }
+
 ul.icons i {
     display: inline-block;
     padding: 20px;
