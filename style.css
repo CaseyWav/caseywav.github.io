@@ -180,6 +180,10 @@ height:100%;
 .front-page{
   font-size:24px;
 }
+  .mobile-break{
+    display: none;
+  }
+}
 
 @media(min-width:901px && max-width:975px){
   .flex-box {
@@ -296,6 +300,14 @@ height:100%;
 
   .footer-icons:hover{
     color:#adadad;
+  }
+
+  .dev-comp{
+    text-align:center !important;
+    width:fit-content !important;
+  }
+  .mobile-break{
+    width:fit-content !important;
   }
 
 }
